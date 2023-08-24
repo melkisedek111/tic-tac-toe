@@ -28,6 +28,7 @@ const gameController = {
 				responseData.message = "Game data has been saved.";
 			}
 		} catch (error) {
+			console.log(error);
 			responseData.message = "Game data has not been saved.";
 		}
 

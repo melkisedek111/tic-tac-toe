@@ -17,6 +17,7 @@ const homeController = {
 			responseData.success = true;
 			responseData.data = gameData;
 		} catch (error) {
+			console.log(error);
 			responseData.message = "Game data has not been retrieved.";
 		}
 
