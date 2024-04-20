@@ -1,0 +1,36 @@
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.player-x {
+    background-color: #2fc4be;
+}
+
+.player-o {
+    background-color: #f3b03a;
+}
+
+.ties {
+    background-color: #A8BEC9;
+}
+
+.player-x, .player-o, .ties {
+    border-radius: 15px;
+    width: 150px;
+    padding: 5px;
+}
